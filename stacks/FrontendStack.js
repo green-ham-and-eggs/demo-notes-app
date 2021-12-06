@@ -18,8 +18,8 @@ export default class FrontendStack extends sst.Stack {
         REACT_APP_IDENTITY_POOL_ID: auth.cognitoCfnIdentityPool.ref,
         REACT_APP_USER_POOL_CLIENT_ID:
           auth.cognitoUserPoolClient.userPoolClientId,
-        },
-      });
+      },
+    });
 
     // Show the url in the output
     this.addOutputs({

@@ -57,6 +57,9 @@ function App() {
               <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
             ) : (
               <>
+                <LinkContainer to="/settings">
+                  <Nav.Link>Settings</Nav.Link>
+                </LinkContainer>
                 <LinkContainer to="/signup">
                   <Nav.Link>Signup</Nav.Link>
                 </LinkContainer>
